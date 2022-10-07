@@ -374,14 +374,7 @@ class _CalculatriceState extends State<Calculatrice> {
                                   ),
                                   child: Center(
                                     child: TextButton(
-                                      onPressed: (() {
-                                        setState(() {
-                                          if (!saisie.contains(".")) {
-                                            saisieTampon = saisieTampon + ".";
-                                            saisie = saisie + ".";
-                                          }
-                                        });
-                                      }),
+                                      onPressed: null,
                                       child: Text(","),
                                     ),
                                   ),
